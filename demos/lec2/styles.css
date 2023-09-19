@@ -1,0 +1,30 @@
+body {
+  padding: 2em;
+  background-color: #fff3db;
+}
+
+img {
+  transition-duration: 0.4s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.lecture {
+  display: block;
+  padding: 12px 30px 20px 20px;
+  border-radius: 12px;
+  background-color: #ffc55a;
+}
+
+.desc p {
+  max-width: 50%;
+}
+
+h1,
+h2,
+li,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
