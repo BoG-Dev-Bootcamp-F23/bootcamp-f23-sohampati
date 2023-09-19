@@ -1,5 +1,5 @@
 /**
- * Let's do some coding warm up to get you started with JS!!!
+ * Let's do some coding warm up to get you started with JS!
  *
  */
 
@@ -15,7 +15,9 @@
  * D = 60 -> 69
  * F = anything < 60
  */
-function toLetterGrade(numGrade) {}
+function toLetterGrade(numGrade) {
+  // TODO
+}
 
 /**
  * Task 2: Create a function that takes in an array of integers and returns a
@@ -24,7 +26,9 @@ function toLetterGrade(numGrade) {}
  *
  * Example: [9, 3, 4, 1, 2, 0] --> [4, 2, 0]
  */
-function getEvenElements(array) {}
+function getEvenElements(array) {
+  // TODO
+}
 
 /**
  * Task 3: Create a function that takes in a sentence and returns the LENGTH
@@ -35,7 +39,9 @@ function getEvenElements(array) {}
  *
  * Example: "I love Bits of Good" --> 4
  */
-function findLongestWord(string) {}
+function findLongestWord(string) {
+  // TODO
+}
 
 /**
  * Task 4: Create a function that takes in 2 objects and return an object that 
@@ -58,7 +64,9 @@ function findLongestWord(string) {}
         friendly: false
     } 
  */
-function combineObjects(object1, object2) {}
+function combineObjects(object1, object2) {
+  // TODO
+}
 
 /**
  *  Task 5: Create a function that takes an array as an argument and returns
@@ -68,9 +76,12 @@ function combineObjects(object1, object2) {}
  *
  *  Example: [1, 2, 3] -> [3, 2, 1]
  */
-function reverseArr(array) {}
+function reverseArr(array) {
+  // TODO
+}
 
-// DO NOT EDIT BELOW THIS LINE
+// DO NOT EDIT BELOW THIS LINE -- the code is for testing purposes only!
+// To test your code, run `node warmUp.js` in your terminal
 
 import {
   testToLetterGrade,
