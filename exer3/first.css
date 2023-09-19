@@ -51,17 +51,27 @@ a{
     border-radius: 18px;
     border-style: groove;
     font-weight: lighter;
+    margin-left: 420px;
 
 }
 .enter{
-    background-color: #0285ff;
+    
     border-radius: 10px;
     
     
 }
 .enterbar{
-    padding-left: 25px;
+    padding-left: 50px;
 }
-.button{
-    background-color: #0285ff;
+button{
+    background-color: #1d85ff
+}
+.madeby{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.footer{
+    margin-top: 550px;
 }
