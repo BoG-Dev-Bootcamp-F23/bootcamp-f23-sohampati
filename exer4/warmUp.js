@@ -107,7 +107,13 @@ function combineObjects(object1, object2) {
  *  Example: [1, 2, 3] -> [3, 2, 1]
  */
 function reverseArr(array) {
-  // TODO
+  let n = array.length-1;
+  let myArray = new Array();
+  for(let i = 0; i <= n; i++){
+    myArray[i] = array[n-i];
+  }
+  return myArray;
+
 }
 
 // DO NOT EDIT BELOW THIS LINE -- the code is for testing purposes only!
