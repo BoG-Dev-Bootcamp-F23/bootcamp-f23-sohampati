@@ -94,7 +94,13 @@ function getTrainComingIn1Minute(arrivals) {
  *
  */
 function updateLineColor(arrivals) {
-  // TODO
+  let answer = arrivals.filter((arrival)=> arrival.LINE = 'BLUE');
+  let ans = [...answer];
+  ans.forEach((arrival) => arrival.LINE = 'PINK');
+  return ans;
+
+
+
 }
 
 console.log(getKeysToArr(railArray));
