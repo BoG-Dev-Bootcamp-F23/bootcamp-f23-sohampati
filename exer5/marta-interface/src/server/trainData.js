@@ -14,7 +14,7 @@ const arrivals = {
             "RESPONSETIMESTAMP": "2023-10-05T16:57:27Z",
             "VEHICLELONGITUDE": "33.895333",
             "VEHICLELATITUDE": "-84.293652",
-            "DELAY": "T58S",
+            "DELAY": "TOS",
             "TRIP_ID": "3060"
         },
         {

@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
+.navbar {
+    background-color: #231f20;
+    font-family: 'Inter', 'sans-serif';
+    color: gray;
+    margin-right: 30px;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.selectStation {
+    padding-left: 15px;
+}
