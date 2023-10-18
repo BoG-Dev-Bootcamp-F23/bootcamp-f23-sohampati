@@ -3,7 +3,7 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     background-color: lightgray;
+     background-color: lightgrey;
  }
 
 .logo{
@@ -41,7 +41,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content:left;
-    padding-left: 40px;
+    padding-left: 35px;
 
 }
 .search{

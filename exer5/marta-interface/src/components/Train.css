@@ -18,6 +18,9 @@
     flex-direction: row;
     
 }
+.M{
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
 #timevalue {
     font-size: 30px;
     
