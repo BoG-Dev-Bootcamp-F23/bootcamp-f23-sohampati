@@ -23,6 +23,8 @@ We are going to incorporate state to render the page based on each train line. C
 
 We are no longer using static data! Instead, we are calling this URL: http://13.59.196.129:3001/. You can get the filtered trains for each line using this link by adding http://13.59.196.129:3001/arrivals/[line]; for example, to get the trains from the gold line, call http://13.59.196.129:3001/arrivals/gold. 
 
+To get data for stations, you can use http://13.59.196.129:3001/stations/[line]; for example, to get the stations from the gold line, you can call http://13.59.196.129:3001/stations/gold
+
 *Important note:* Previously, we learned how to call from an API using fetch(); however, React can have issues with rendering using fetch as if the called data has not arrived yet but is being asked to be displayed there will be an issue. To handle this we will incorporate useEffect()! We will have two more states added to LinesPage.js: loading and data, currently set to true and null. Then, we will add useEffect() below like so (where the line in the URL is a variable that changes based on the current state of the line from the line buttons):
 
 ```
@@ -50,13 +52,9 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 - Create a 0.5-2 minute demo video to showcase your project's functionality (this is just so that we don't have to go through and install dependencies / deal with versioning errors for every single exercise)
 - Bonus: Conditional rendering for when there are no trains to display
 
-## Display Examples
+## Display Example
 
 **Gold**
 
 <img width="500" alt="Screenshot 2023-10-16 at 10 08 13 PM" src="https://github.com/zinichakraborty/bootcampexercises-f23/assets/113480497/ab39f0c9-83d8-4232-90da-d026aca7ef7e">
-
-**Green**
-
-<img width="500" alt="Screenshot 2023-10-16 at 10 08 22 PM" src="https://github.com/zinichakraborty/bootcampexercises-f23/assets/113480497/990cb8e8-8441-4f05-bc1f-f9991bf977bb">
 
