@@ -19,7 +19,7 @@ You will need to initialize the React app again as it is not recognized as one a
 
 Now that we are set up, we want to add two new pages! We will call these `Home.js` and `About.js`. 
 
-In `Home.js` you can create a simple MARTA homescreen page up to your own design or following the Figma Page below that will have a form of a navbar that takes you to the `LinesPage.js` for each line with the display for `LinesPage.js` being the line that was clicked on in the navbar. There will also be a link to an about page at the top right of the homescreen.
+In `Home.js` you can create a simple MARTA homescreen page up to your own design or follow the Figma Page below that will have the form of a navbar that takes you to the `LinesPage.js` for each line with the display for `LinesPage.js` being the line that was clicked on in the navbar. There will also be a link to an About page at the top right of the home screen.
 
 In `About.js`, you will create a simple page that displays the MARTA map and some basic information about the MARTA's purpose on the page. This page will include a button somewhere linking back to the home page.
 
@@ -38,12 +38,15 @@ return (
   );
 ```
 
-Incroporate links between the three pages using this format and make sure that homescreen links to the `LinesPage.js` four separate times with four separate props representing the lines.
+When we want to route to a page without stating the element we can use the `useNavigate()` hook! First, you will need to import it using `import { useNavigate } from "react-router-dom";`. Then, inside your function but above the return add `const navigate = useNavigate();`. When you want to link to a page, say inside a button, insert `navigate("/path");`.
 
+Incorporate some form of links between the three pages using React-Router-Dom and ensure that the home screen links to the `LinesPage.js` four separate times with four separate props representing the lines.
 
 **Requirements:**
 - Create a `Home.js` and `About.js`.
 - Use React routing to link between `LinesPage.js`, `Home.js`, and `About.js`.
+- When routing from `Home.js` to `LinesPage.js` there needs to be four separate links titled by line and linking to `LinesPage.js` with each line's props.
+- Create a 0.5-2 minute demo video to showcase your project's functionality (this is again just so that we don't have to go through and install dependencies/deal with versioning errors for every exercise)
 
 ## Display Example
 
