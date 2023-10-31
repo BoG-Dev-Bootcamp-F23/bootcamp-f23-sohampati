@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
+.bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #231f20;
+    font-family: 'Inter', 'sans-serif';
+    padding-bottom: 400px;
+    color: lightgray;
+    
+    
+    padding-right: 70px;
+    padding-left: 40px;
+   
+    
+}
+
+.selectStation {
+    padding-left: 10px;
+    margin-top: 20px;
+    color:lightgray;
+    position: absolute;
+    
+}
+
+.stat{
+    margin-left: -10px;
+    margin-top: 40px;
+}

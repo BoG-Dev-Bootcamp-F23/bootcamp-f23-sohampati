@@ -1,0 +1,62 @@
+.lines-page{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', 'sans-serif';
+    margin-left: 20px;
+}
+.station-train{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.header{
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    margin-left: 500px;
+    position: absolute;
+    
+}
+.a{
+    background-color: black;
+    color:white;
+
+}
+.buttons :hover{
+    background-color: black;
+    color:white;
+    transition: background-color 250ms;
+}
+.train-list{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+/* MButton.css */
+
+/* Apply padding to specific MButton elements */
+.a {
+    padding: 10px; /* Adjust the padding value as needed */
+  }
+  
+  .b {
+    padding: 10px; /* Adjust the padding value as needed */
+  }
+  
+  .c {
+    padding: 10px; /* Adjust the padding value as needed */
+  }
+  
+  .d {
+    padding: 10px; /* Adjust the padding value as needed */
+  }
+  
+ 

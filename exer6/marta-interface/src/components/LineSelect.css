@@ -1,0 +1,8 @@
+.selectLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+}
