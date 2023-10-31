@@ -1,7 +1,7 @@
 .station {
     color: white;
     border-bottom: solid;
-    
+    cursor: pointer;
     padding: 10px;
     padding-left: 40px;
 }

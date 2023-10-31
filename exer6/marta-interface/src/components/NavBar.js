@@ -1,23 +1,32 @@
 import "./NavBar.css"
-import stations from "../server/stationData.js";
-import Station from "./Station.js"
+import React, { useState } from 'react';
+import stations from '../server/stationData.js';
+import Station from './Station.js';
 
+export default function NavBar(props) {
+  const [selectedStation, setSelectedStation] = useState('All Stations');
+  const color = props.color.toLowerCase();
 
-export default function NavBar(props){
-    let color = props.color.toLowerCase();
-    return (<div className = "bar">
-        <div className="selectStation">Select your starting station</div>
-        <div className="stat">
-        <Station stationName="All Stations"/>
-        {stations[color].map( (station) => {
-             return <Station stationName={station}/>;
-            
-        })}
-        </div>
-        
-        
+  const handleStationSelect = (stationName) => {
+    setSelectedStation(stationName);
+    
+  };
 
-
-    </div>)
-
+  return (
+    <div className="bar">
+      <div className="selectStation">Select your starting station</div>
+      <div className="stat">
+        <Station stationName="All Stations" onSelect={handleStationSelect} isSelected={selectedStation === 'All Stations'} />
+        {stations[color].map((station) => (
+          <Station
+            key = {station}
+            stationName = {station}
+            onSelect = {handleStationSelect}
+            isSelected = {station === selectedStation}
+          />
+        ))}
+      </div>
+      
+    </div>
+  );
 }

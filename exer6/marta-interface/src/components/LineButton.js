@@ -9,6 +9,7 @@ const colors = {
 export default function LineButton(props) {
     const buttonStyle = {
         backgroundColor: colors[props.color.toUpperCase()]
+        
     }
     return (<button className="line-button" style={buttonStyle} onClick={props.onClick}>{props.color}</button>);
 }
