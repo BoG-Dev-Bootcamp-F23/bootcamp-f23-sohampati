@@ -1,0 +1,26 @@
+
+
+.buttons button {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 40px;
+    font-family: sans-serif, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: -20px;
+    margin-bottom: 20px;
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
