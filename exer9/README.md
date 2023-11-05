@@ -4,7 +4,7 @@
 In this exercise, bootcampers will familiarize themselves with MongoDB schemas/models, CRUD operations, and making request through API endpoints in Next.
 
 # Submission
-https://www.youtube.com/watch?v=CWCGz9_Tmrk
+
 ## Submission
 See the submission instructions down below.
 - **Due Date**: 11-7-2023
